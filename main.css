@@ -1,0 +1,131 @@
+
+
+body{
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 40px;
+  background: url('http://i.imgur.com/UZKEjzG.png') no-repeat;
+  background-size: cover;
+  color: #111;
+  &.day {
+    background-image: url('http://i.imgur.com/UZKEjzG.png') no-repeat;
+  }.weatherbox {
+      background-color: rgba(8,8,8,0.6);
+      border: 1px solid black;
+      color: #F7F4EB;
+    }
+    h1, .date {
+      text-align: center;
+      color: #151514;
+      text-shadow: 1px 1px 2px #DAD3CD;
+    }
+  &.night {
+    background-image: url('http://eskipaper.com/images/8-bit-background-1.jpg') no-repeat;
+  }.weatherbox {
+      background-color: rgba(234, 234, 234, 0.6);
+      border: 1px solid white;
+      color: #39434e;
+    }
+    h1, .date {
+      color: #DAD3CD;
+      text-shadow: 1px 1px 2px #151514;
+    }
+}
+
+#container {
+  background-color: #ccc;
+  margin: 0px 0px 40px 400px;
+  min-height: 100px;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.weatherbox {
+  padding: 10px;
+  border-radius: 6px;
+  margin: 0px auto;
+  display: table;
+  text-align: center;
+  }
+
+  .innerweatherbox {
+      background-color: rgba(8,8,8,0.6);
+      border: 1px solid black;
+      color: #F7F4EB;
+    }
+ 
+  .info, .weather, .wind {
+    display: table-cell;
+    padding: 20px 20px 10px;
+    vertical-align: middle;
+    text-align: center;
+    }
+
+    .temp {
+      font-size: 32px;
+      p {
+        line-height: 70%;
+        margin-bottom: 20px;
+        span {
+          font-size: 20px;
+        }
+        &.small {
+          margin-bottom: 10px;
+          line-height: initial;
+        }
+      }
+    }
+
+    .humidity, .windspeed {
+      font-size: 26px;
+      p {
+        line-height: 70%;
+        span {
+          font-size: 16px;
+        }
+        &.small {
+          margin-bottom: 10px;
+          line-height: initial;
+        }
+      }
+    }
+    .winddir {
+      margin-bottom: 10px;
+      .glyphicon {
+        font-size: 50px;
+      }
+    }
+  }
+  .city {
+    display: table-row;
+    text-align: center;
+    p {
+      display: table-cell;
+      text-align: center;
+      font-size: 26px;
+      border-bottom: 1px solid grey;
+      padding-bottom: 10px;
+    }
+  }
+  .icon img {
+    width: 90%;
+  }
+}
+
+button {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #C0392B;
+  color: #ccc;
+  width: 40%;
+  border: none;
+  margin: 20px;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: #922B21;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 40px;
+}
