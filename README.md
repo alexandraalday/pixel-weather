@@ -1,5 +1,5 @@
 ## Pixel Weather
-http://project-goodgame.herokuapp.com/
+http://alexandraalday.com/pixel-weather/
 
 Pixel Weather is a humble weather application inspired by [8-bit weather](http://www.8bitweather.com/). This app displays the current weather conditions from the user's location using openweather API endpoints. User can toggle between imperial and metric units to their hearts desire. 
 
@@ -8,7 +8,6 @@ Pixel Weather is a humble weather application inspired by [8-bit weather](http:/
 * CSS 
 * JavaScript
 * jQuery
-* Node.js
 
 **API Used:** 
 * openweather API
